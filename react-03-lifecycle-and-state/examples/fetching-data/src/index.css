@@ -1,0 +1,43 @@
+:root {
+  --dark: #07074e;
+  --light: #e6e3e8;
+  --accent: #588bb3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: centre;
+  align-items: centre;
+  background-color: var(--dark);
+  color: var(--light);
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  width: 480px;
+  padding: 1.5rem;
+  text-align: centre;
+}
+
+h1 {
+  color: var(--light);
+  margin-bottom: 1rem;
+}
+
+.list {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+  text-align: left;
+}
+
+.list li {
+  border-bottom: 1px solid rgba(230, 227, 232, 0.3);
+  padding: 0.4rem 0;
+}

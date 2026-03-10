@@ -1,0 +1,21 @@
+ProductPage {
+    background-color: aquamarine;
+}
+
+.cardImage {
+    width: 18rem;
+}
+
+.productCard {
+    background-color: aqua;
+    display: flex;
+}
+
+.productListings {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.productsListings :nth-last-child {
+    background-color: brown;
+}
